@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF533ECE175776540058CC11 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF533ECD175776540058CC11 /* Cocoa.framework */; };
+		FF533EDF175776710058CC11 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF533EDC175776710058CC11 /* CoreServices.framework */; };
+		FF533EE0175776710058CC11 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF533EDD175776710058CC11 /* Security.framework */; };
+		FF533EE1175776710058CC11 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF533EDE175776710058CC11 /* SystemConfiguration.framework */; };
+		FF533EE21757769A0058CC11 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69FEDA16391FE9007CF6A7 /* AFHTTPClient.m */; };
+		FF533EE31757769A0058CC11 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69FEDC16391FE9007CF6A7 /* AFHTTPRequestOperation.m */; };
+		FF533EE41757769A0058CC11 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69FEDE16391FE9007CF6A7 /* AFImageRequestOperation.m */; };
+		FF533EE51757769A0058CC11 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69FEE016391FE9007CF6A7 /* AFJSONRequestOperation.m */; };
+		FF533EE61757769A0058CC11 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69FEE216391FE9007CF6A7 /* AFNetworkActivityIndicatorManager.m */; };
+		FF533EE71757769A0058CC11 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69FEE516391FE9007CF6A7 /* AFPropertyListRequestOperation.m */; };
+		FF533EE81757769A0058CC11 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69FEE716391FE9007CF6A7 /* AFURLConnectionOperation.m */; };
+		FF533EE91757769A0058CC11 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69FEE916391FE9007CF6A7 /* AFXMLRequestOperation.m */; };
 		FF69FEEC16391FE9007CF6A7 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69FEDA16391FE9007CF6A7 /* AFHTTPClient.m */; };
 		FF69FEED16391FE9007CF6A7 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69FEDC16391FE9007CF6A7 /* AFHTTPRequestOperation.m */; };
 		FF69FEEE16391FE9007CF6A7 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69FEDE16391FE9007CF6A7 /* AFImageRequestOperation.m */; };
@@ -38,6 +50,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FF533ECC175776540058CC11 /* libAFNetworkingStaticCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworkingStaticCocoa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF533ECD175776540058CC11 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FF533ED0175776550058CC11 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FF533ED1175776550058CC11 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FF533ED2175776550058CC11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF533ED5175776550058CC11 /* AFNetworkingStaticCocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkingStaticCocoa-Prefix.pch"; sourceTree = "<group>"; };
+		FF533EDC175776710058CC11 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		FF533EDD175776710058CC11 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		FF533EDE175776710058CC11 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		FF69FED916391FE9007CF6A7 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		FF69FEDA16391FE9007CF6A7 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		FF69FEDB16391FE9007CF6A7 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -69,6 +90,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FF533EC9175776540058CC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF533EDF175776710058CC11 /* CoreServices.framework in Frameworks */,
+				FF533EE0175776710058CC11 /* Security.framework in Frameworks */,
+				FF533EE1175776710058CC11 /* SystemConfiguration.framework in Frameworks */,
+				FF533ECE175776540058CC11 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FFA54AB616391ECB00F055A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,6 +118,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF533ECF175776550058CC11 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF533ED0175776550058CC11 /* AppKit.framework */,
+				FF533ED1175776550058CC11 /* CoreData.framework */,
+				FF533ED2175776550058CC11 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FF533ED3175776550058CC11 /* AFNetworkingStaticCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				FF533ED4175776550058CC11 /* Supporting Files */,
+			);
+			path = AFNetworkingStaticCocoa;
+			sourceTree = "<group>";
+		};
+		FF533ED4175776550058CC11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF533ED5175776550058CC11 /* AFNetworkingStaticCocoa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FF69FED816391FE9007CF6A7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +176,7 @@
 			children = (
 				FF69FED816391FE9007CF6A7 /* Source */,
 				FFA54ABF16391ECB00F055A6 /* Supporting Files */,
+				FF533ED3175776550058CC11 /* AFNetworkingStaticCocoa */,
 				FFA54ABB16391ECB00F055A6 /* Frameworks */,
 				FFA54ABA16391ECB00F055A6 /* Products */,
 			);
@@ -127,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				FFA54AB916391ECB00F055A6 /* libAFNetworkingStatic.a */,
+				FF533ECC175776540058CC11 /* libAFNetworkingStaticCocoa.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +194,9 @@
 		FFA54ABB16391ECB00F055A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF533EDC175776710058CC11 /* CoreServices.framework */,
+				FF533EDD175776710058CC11 /* Security.framework */,
+				FF533EDE175776710058CC11 /* SystemConfiguration.framework */,
 				FFA54AD516391F6A00F055A6 /* MobileCoreServices.framework */,
 				FFA54AD616391F6A00F055A6 /* Security.framework */,
 				FFA54AD716391F6A00F055A6 /* SystemConfiguration.framework */,
@@ -141,6 +204,8 @@
 				FFA54AD316391F5400F055A6 /* CoreLocation.framework */,
 				FFA54AD116391F4F00F055A6 /* CoreGraphics.framework */,
 				FFA54ABC16391ECB00F055A6 /* Foundation.framework */,
+				FF533ECD175776540058CC11 /* Cocoa.framework */,
+				FF533ECF175776550058CC11 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,7 +221,34 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		FF533ECA175776540058CC11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		FF533ECB175776540058CC11 /* AFNetworkingStaticCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF533EDB175776550058CC11 /* Build configuration list for PBXNativeTarget "AFNetworkingStaticCocoa" */;
+			buildPhases = (
+				FF533EC8175776540058CC11 /* Sources */,
+				FF533EC9175776540058CC11 /* Frameworks */,
+				FF533ECA175776540058CC11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworkingStaticCocoa;
+			productName = AFNetworkingStaticCocoa;
+			productReference = FF533ECC175776540058CC11 /* libAFNetworkingStaticCocoa.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		FFA54AB816391ECB00F055A6 /* AFNetworkingStatic */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFA54AC716391ECB00F055A6 /* Build configuration list for PBXNativeTarget "AFNetworkingStatic" */;
@@ -196,11 +288,27 @@
 			projectRoot = "";
 			targets = (
 				FFA54AB816391ECB00F055A6 /* AFNetworkingStatic */,
+				FF533ECB175776540058CC11 /* AFNetworkingStaticCocoa */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FF533EC8175776540058CC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF533EE21757769A0058CC11 /* AFHTTPClient.m in Sources */,
+				FF533EE31757769A0058CC11 /* AFHTTPRequestOperation.m in Sources */,
+				FF533EE41757769A0058CC11 /* AFImageRequestOperation.m in Sources */,
+				FF533EE51757769A0058CC11 /* AFJSONRequestOperation.m in Sources */,
+				FF533EE61757769A0058CC11 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				FF533EE71757769A0058CC11 /* AFPropertyListRequestOperation.m in Sources */,
+				FF533EE81757769A0058CC11 /* AFURLConnectionOperation.m in Sources */,
+				FF533EE91757769A0058CC11 /* AFXMLRequestOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FFA54AB516391ECB00F055A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,6 +328,50 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		FF533ED9175776550058CC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingStaticCocoa/AFNetworkingStaticCocoa-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF533EDA175776550058CC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingStaticCocoa/AFNetworkingStaticCocoa-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		FFA54AC516391ECB00F055A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -293,6 +445,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FF533EDB175776550058CC11 /* Build configuration list for PBXNativeTarget "AFNetworkingStaticCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF533ED9175776550058CC11 /* Debug */,
+				FF533EDA175776550058CC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FFA54AB316391ECB00F055A6 /* Build configuration list for PBXProject "AFNetworkingStatic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

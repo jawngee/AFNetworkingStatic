@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>AFNetworkingStaticCocoa.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FF533ECB175776540058CC11</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FFA54AB816391ECB00F055A6</key>
 		<dict>
 			<key>primary</key>
